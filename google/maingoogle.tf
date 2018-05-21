@@ -2,7 +2,7 @@
 provider "google" {
 //  credentials = "${file("google-creds.json")}"
 // updated for enterprise
-  credentials = TF_VAR_GOOGLE_CREDENTIALS
+  credentials = "${var.GOOGLE_CREDENTIALS}"
   project     = "${var.project}"
   region      = "${var.region}"
 }
