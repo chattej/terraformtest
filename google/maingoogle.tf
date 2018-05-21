@@ -2,7 +2,7 @@
 provider "google" {
 //  credentials = "${file("google-creds.json")}"
 // updated for enterprise
-  credentials = "${env.GOOGLE_CREDENTIALS}"
+//  credentials = "${env.GOOGLE_CREDENTIALS}"
   project     = "${var.project}"
   region      = "${var.region}"
 }
