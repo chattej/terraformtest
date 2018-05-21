@@ -1,6 +1,8 @@
 // Configure the Google Cloud provider
 provider "google" {
-  credentials = "${file("google-creds.json")}"
+//  credentials = "${file("google-creds.json")}"
+// updated for enterprise
+  credentials = TF_VAR_GOOGLE_CREDENTIALS
   project     = "${var.project}"
   region      = "${var.region}"
 }
