@@ -1,7 +1,6 @@
 
 #  populated from tfvars file
-variable "project" {
-   default = "swift-capsule-202709"}
+variable "project" {}
 variable "region" {
   default = "europe-west2"
 }

@@ -1,8 +1,6 @@
 // Configure the Google Cloud provider
 provider "google" {
-//  credentials = "${file("google-creds.json")}"
-// updated for enterprise
-//  credentials = "${env.GOOGLE_CREDENTIALS}"
+//  credentials = "${file("google-creds.json")}" Removed from enterprise version as creds passed as env variable
   project     = "${var.project}"
   region      = "${var.region}"
 }
