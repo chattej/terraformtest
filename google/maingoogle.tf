@@ -1,5 +1,5 @@
 // Configure the Google Cloud provider
-//line added to trigger a build
+//demo build change
 provider "google" {
 //  credentials = "${file("google-creds.json")}" Removed from enterprise version as creds passed as env variable
   project     = "${var.project}"
