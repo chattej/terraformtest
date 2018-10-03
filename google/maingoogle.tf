@@ -1,5 +1,6 @@
 // Configure the Google Cloud provider
 //demo build change for demo friday - have a beer..
+// for a demo branch
 provider "google" {
 //  credentials = "${file("google-creds.json")}" Removed from enterprise version as creds passed as env variable
   project     = "${var.project}"
